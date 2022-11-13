@@ -1,4 +1,4 @@
-{% set version = "2.8.0" %}
+{% set version = "2.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/distr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/distr/distr_{{ version }}.tar.gz
-  sha256: bb7df05d6b946bcdbbec2e3397c7c7e349b537cabfcbb13a34bcf6312a71ceb7
+  sha256: 44b1465ad260b7c6a9da65848fae89003f0c1dfcda6a6f73e65d748af4797d39
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,7 +50,7 @@ about:
   license: LGPL-3.0-only
   summary: S4-classes and methods for distributions.
   license_family: LGPL
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3
 
 extra:
   recipe-maintainers:
