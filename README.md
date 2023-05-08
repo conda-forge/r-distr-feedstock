@@ -1,11 +1,22 @@
+About r-distr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-distr-feedstock/blob/main/LICENSE.txt)
+
 About r-distr
-=============
+-------------
 
 Home: http://distr.r-forge.r-project.org/
 
 Package license: LGPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-distr-feedstock/blob/main/LICENSE.txt)
+Summary: S4-classes and methods for distributions.
+About r-distr
+-------------
+
+Home: http://distr.r-forge.r-project.org/
+
+Package license: LGPL-3.0-only
 
 Summary: S4-classes and methods for distributions.
 
